@@ -1,0 +1,27 @@
+:root {
+    --color-primary: #2d4e68;
+    --color-secondary: #77d7b9;
+    --color-tertiary: #f0f0f0;
+    --color-quaternary: #333;
+    --color-quinary: #666;
+    --color-senary: #999;
+    --color-septenary: #ccc;
+    --color-octonary: #e6e6e6;
+    --color-nonary: #f9f9f9;
+    --color-decenary: #fff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif, Helvetica, Verdana, Geneva, Tahoma;
+    /*background-image: linear-gradient(to left, var(--color-primary), var(--color-secondary));*/
+}
+
+/* Add global styles here */
+html, body  {
+    width: 100vw; /* Garante que o layout ocupe a largura total da tela */
+    min-height: 100vh; /* Garante que o layout ocupe a altura total da tela */
+    line-height: 1.5;
+}
